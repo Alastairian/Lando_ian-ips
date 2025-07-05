@@ -1,25 +1,21 @@
-# IAI-IPS: A Dual-Core Cognitive Architecture for AGI
+# IAI-IPS: Twine Cognition Python Prototype
 
-This repository implements a prototype of the Instinctive and Analytical Intelligence Problem Solving (IAI-IPS) system, as described in the research by Alastair Ian S. Tinio.
+This is a prototype implementation of the IAI-IPS dual-core cognitive architecture described by Alastair Ian S. Tinio.
 
-## Core Concepts
+## Structure
 
-- **Dialectical Principle:** Models subjects as a dynamic interplay of opposing aspects and contradictions.
-- **Cognitive Unit:** A 10-layer neural network whose internal structure is dynamically controlled.
-- **Twine Cognition:** Dual-core architecture (Logos for analytical, Pathos for intuitive) in constant feedback.
+- `core/` – Cognitive units, dialectical logic utilities
+- `twine/` – Logos and Pathos cores, feedback loop
 
-## Directory Structure
+## How to Use
 
-- `/core`: Base cognitive unit, core node, dialectical processing.
-- `/twine`: Logos and Pathos cores, feedback loop.
-- `/learning`: Four learning modes (deeper, generalized, historical, predictive).
-- `/simulation`: Scenario-based testing.
+- Expand the `process()` methods to implement the learning modes and feedback mechanisms described in the paper.
+- Start with simple toy problems (e.g., classifying structured/chaotic data) to validate architecture dynamics.
 
 ## Next Steps
 
-- Implement core logic for contradiction modeling.
-- Design feedback loop between Logos and Pathos.
-- Integrate four learning modes.
-- Simulate complex scenarios and analyze dynamic resource allocation.
+- Implement contradiction logic and dynamic layer adjustment.
+- Create basic crisis scenario simulations.
+- Develop feedback signaling between Pathos and Logos.
 
-See the research paper for theoretical background and further details.
+See the research paper for conceptual background.
